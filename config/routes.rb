@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'taylor/index'
+
+  get 'taylor/action'
+
+  get 'taylor/view'
+
   get "/" => "pages#index"
   get '/pages/:id' => "pages#show"
 
