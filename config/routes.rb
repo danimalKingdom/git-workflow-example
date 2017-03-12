@@ -6,7 +6,9 @@ Rails.application.routes.draw do
   get 'taylor/view'
 
   get "/" => "pages#index"
+  get "/name" => "pages#name"
   get '/pages/:id' => "pages#show"
+
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
