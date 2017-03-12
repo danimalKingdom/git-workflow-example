@@ -1,2 +1,0 @@
-class NewPagesController < ApplicationController
-end
