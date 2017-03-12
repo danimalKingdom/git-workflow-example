@@ -6,6 +6,9 @@ Rails.application.routes.draw do
   get 'taylor/view'
 
   get "/" => "pages#index"
+
+  get '/pages/:id' => "pages#show"
+
   get "/name" => "pages#name"
   get '/pages/:id' => "pages#show"
 
