@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
+
+  get 'products/index'
+
+
   get "/donuts" => "donuts#index"
+
   get "/" => "pages#index"
   get 'taylor/index'
 
