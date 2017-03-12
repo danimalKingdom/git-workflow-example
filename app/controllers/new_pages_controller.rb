@@ -1,0 +1,2 @@
+class NewPagesController < ApplicationController
+end
